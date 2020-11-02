@@ -1,0 +1,41 @@
+<html>
+    First Number:<input id="no1"> <br>
+    Second Number:<input id="no2"> <br>
+    result:<input id="result"> <br>
+
+    
+    <input id="B1" type = "button" value="+" onclick="addition()">
+    <input id="B1" type = "button" value="-" onclick="subtraction()">
+    <input id="B1" type = "button" value="*" onclick="multiplication()">
+    <input id="B1" type = "button" value="/" onclick="division()">
+
+    <script>
+        let ref= window.document.getElementById("no1");
+        let ref2= window.document.getElementById("no2");
+        let ref3= window.document.getElementById("result");
+
+
+        function addition()
+        {
+            
+            ref3.value=parseInt(ref.value) + parseInt(ref2.value)            
+        }
+        function subtraction()
+        {
+            ref3.value=parseInt(ref.value) - parseInt(ref2.value)            
+        }
+        function multiplication()
+        {
+            ref3.value=parseInt(ref.value) * parseInt(ref2.value)            
+        }
+        function division()
+        {
+
+            ref3.value=parseInt(ref.value) / parseInt(ref2.value)            
+        }
+    </script>
+
+
+
+
+</html>

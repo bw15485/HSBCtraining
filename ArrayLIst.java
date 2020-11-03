@@ -19,7 +19,7 @@ public class ArrayLIst
         employees.add(newRecord);
     }
 
-    public void removeRecord(int reno)
+    public void removeRecord(int regno)
     {
         employees.remove(reno);
     }
